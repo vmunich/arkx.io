@@ -1,0 +1,27 @@
+.page-delegate .content.white {
+  @apply .bg-white .rounded-sm .p-6 .text-sm;
+}
+
+.page-delegate .content.white ul {
+  @apply .list-reset;
+}
+
+.page-delegate .content.white ul li {
+  @apply .flex .items-center .justify-between .py-6 .border-b .border-grey-lightereven;
+}
+
+.page-delegate .content.white ul li:last-child {
+  @apply .border-0;
+}
+
+.page-delegate .content.white.fidelity {
+  @apply .p-0;
+}
+
+.page-delegate .content.white.fidelity .kicker {
+  @apply .bg-grey-lightestest .border-b .border-grey-lightest .p-6;
+}
+
+.page-delegate .content.white.fidelity ul {
+  @apply .p-6 .pt-4;
+}
